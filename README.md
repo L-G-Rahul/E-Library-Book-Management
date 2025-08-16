@@ -1,42 +1,47 @@
-📚 Library Management System 📖
-Welcome to the Library Management System, a simple command-line tool built to showcase fundamental data structures in action. This project lets you manage a library's book inventory with ease, including a neat undo feature for recent actions.
+# 📚 Library Management System
 
-✨ Features
-Book Inventory 🔗: Our library's book collection is organized using a custom-built linked list. This allows for a clean and efficient way to add and manage books.
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Borrow & Return 🔄: Borrow a book when it's available or return one when you're done! The system keeps track of each book's status.
+A simple, console-based application for managing a library's book inventory. This project demonstrates the practical application of fundamental data structures like **Linked Lists** and **Stacks** in a real-world scenario.
 
-Undo Functionality ⏪: Made a mistake? No problem! A powerful stack data structure records your actions, so you can instantly undo the last borrow or return with a single command.
+---
 
-Search & Filter 🔎: Quickly find any book in the library by searching for its title or author. The search is smart and works with partial names, so you'll always find what you're looking for.
+## ✨ Features
 
-⚙️ Technical Details
-This project is a great example of implementing classic data structures:
+-   **Book Inventory** 🔗: Books are stored in a dynamic inventory powered by a linked list, allowing for efficient management of the collection.
+-   **Borrow & Return** 🔄: Easily track a book's availability with the borrow and return functionalities.
+-   **Undo Action** ⏪: Mistake? No problem! The system records actions in a stack, allowing you to instantly revert the last borrow or return operation.
+-   **Search & Filter** 🔎: Quickly locate any book by searching for its title or author using a case-insensitive search.
 
-Linked List: The LinkedList class is the backbone of our inventory system, providing a dynamic way to store and access book records.
+## ⚙️ Technologies & Data Structures
 
-Stack: The Stack class is the key to our undo feature, leveraging the Last-In, First-Out (LIFO) principle to reverse the most recent action.
+-   **Python 3.8+**: The programming language used to build the application.
+-   **Linked List**: Utilized for the main book inventory to showcase its efficiency in dynamic data management.
+-   **Stack**: Implemented to provide a robust "undo" feature, leveraging the Last-In, First-Out (LIFO) principle.
 
-Object-Oriented Design: The code is modular and easy to understand, with dedicated classes for Book, LinkedList, Stack, and LibraryManager.
+## 🚀 Getting Started
 
-▶️ How to Run
-Save the Code 💾: Save the provided Python code into a single file named library_manager.py.
+Follow these simple steps to get the application up and running on your local machine.
 
-Open a Terminal 💻: Navigate to the directory where you saved the file.
+### Prerequisites
 
-Run the Script 🚀: Execute the script from your terminal using the Python interpreter:
+-   Python 3.8 or higher installed on your system.
 
+### Installation
+
+1.  Clone the repository to your local machine:
+    ```bash
+    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd your-repository-name
+    ```
+3.  Place the provided Python code into a file named `library_manager.py`.
+
+### Running the Application
+
+Simply execute the main script from your terminal:
+```bash
 python library_manager.py
-
-The application will start, and you'll be greeted with a menu to start your library management journey!
-
-📂 Code Structure
-The entire application is neatly contained within one file for convenience. Here's a quick overview of what's inside:
-
-The Book class: Defines the book object itself.
-
-The LinkedList and Stack classes: Implement the core data structures.
-
-The LibraryManager class: Combines everything and provides the user interface.
-
-Enjoy managing your digital library! If you have any questions or ideas for improvements, feel free to reach out.
