@@ -1,7 +1,6 @@
 # 📚 Library Management System
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 A simple, console-based application for managing a library's book inventory. This project demonstrates the practical application of fundamental data structures like **Linked Lists** and **Stacks** in a real-world scenario.
 
